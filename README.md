@@ -23,6 +23,7 @@ For the 1-dim system, we use a jupyter note to explain the procedure and phenome
 For the others, excecute 'exe.sh' to obtain the prediction $U_{ZK}$ of the solution to the Zubov's Dual Equation. One can optionally 
 execute 'U_smoothing.py' to utilize a neural network for modifications. 
 
-The 'exe.sh' consecutively excecute 'SolveODE.py', 'ZK_Learning.py', and 'U_prediction.py'. The ZK-operator learning utilizes the 
-well-known extended dynamic mode decomposition (EDMD) approach, whereas U_prediction is by iterating the learned ZK operator on the 
-chozen dictionary functions. 
+The 'exe.sh' consecutively excecute 'SolveODE.py', 'ZK_Learning.py', and 'U_prediction.py'. 
+One can either use the bash script or manually excecute 'SolveODE.py', 'ZK_Learning.py', and 'U_prediction.py'.
+The ZK-operator learning utilizes the well-known extended dynamic mode decomposition (EDMD) approach, whereas U_prediction is by 
+iterating the learned ZK operator on the chozen dictionary functions. 
